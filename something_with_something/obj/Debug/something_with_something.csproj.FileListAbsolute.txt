@@ -1,0 +1,7 @@
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\bin\Debug\something_with_something.exe.config
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\bin\Debug\something_with_something.exe
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\bin\Debug\something_with_something.pdb
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\obj\Debug\something_with_something.csproj.AssemblyReference.cache
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\obj\Debug\something_with_something.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\obj\Debug\something_with_something.exe
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\obj\Debug\something_with_something.pdb
