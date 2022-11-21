@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MainLibrary;
 
 namespace something_with_something
 {
@@ -22,72 +23,7 @@ namespace something_with_something
 
         bool isAuthorized;
 
-        class User
-        {
-            private int age;
-            public int Age
-            {
-                get
-                {
-                    return age;
-                }
-
-                set
-                {
-                    age = value;
-                }
-            }
-            private string name;
-            public string Name
-            {
-                get
-                {
-                    return name;
-                }
-
-                set
-                {
-                    name = value;
-                }
-            }
-            public string login;
-            public string Login
-            {
-                get
-                {
-                    return login;
-                }
-
-                set
-                {
-                    login = value;
-                }
-            }
-            public string password;
-            public string Password
-            {
-                get
-                {
-                    return password;
-                }
-
-                set
-                {
-                    password = value;
-                }
-            }
-
-            public bool Authorization()
-            {
-                Console.WriteLine("Введите логин");
-                string x = Console.ReadLine();
-                Console.WriteLine("Введите пароль");
-                string y = Console.ReadLine();
-
-                if (x == login && y == password) return true;
-                else return false;
-            }
-        }
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Введите первое слагаемое");
@@ -115,6 +51,7 @@ namespace something_with_something
                 Console.WriteLine("Ваше имя: " + user.Name +
                                   " Ваш возраст: " + user.Age);
             }
+            user.SayHello();
             Console.ReadKey();
         }
 

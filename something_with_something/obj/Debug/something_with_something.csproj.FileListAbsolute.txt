@@ -5,3 +5,6 @@ C:\Users\Владимир\source\repos\something_with_something\something_with_s
 C:\Users\Владимир\source\repos\something_with_something\something_with_something\obj\Debug\something_with_something.csproj.CoreCompileInputs.cache
 C:\Users\Владимир\source\repos\something_with_something\something_with_something\obj\Debug\something_with_something.exe
 C:\Users\Владимир\source\repos\something_with_something\something_with_something\obj\Debug\something_with_something.pdb
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\bin\Debug\MainLibrary.dll
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\bin\Debug\MainLibrary.pdb
+C:\Users\Владимир\source\repos\something_with_something\something_with_something\obj\Debug\something_with_something.csproj.CopyComplete
