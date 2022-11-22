@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exception
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 0, b = 0, res;
+
+            Console.WriteLine("Это таблица умножения на 10");
+            Console.WriteLine("Все числа вводите целые не отрицательные не больше 10 и не равные 0");
+            
+            try 
+            { 
+                Console.WriteLine("Введите первый множитель");
+                a = Convert.ToInt32(Console.ReadLine());
+                if (a == 0) throw new System.Exception("Числа не должны быть равны 0");
+                if (a > 10) throw new System.Exception("Числа не должны быть больше 10");
+                if (a < 0) throw new System.Exception("Числа должны быть положительными");
+                Console.WriteLine("Введите второй множитель");
+                b = Convert.ToInt32(Console.ReadLine());
+                if (b == 0) throw new System.Exception("Числа не должны быть равны 0");
+                if (b > 10) throw new System.Exception("Числа не должны быть больше 10");
+                if (b < 0) throw new System.Exception("Числа должны быть положительными");
+                res = a * b;
+                Console.WriteLine("Ваш результат " + res);
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("Это не целое число");
+            }
+            catch(System.Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
