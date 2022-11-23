@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Strings
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string s1 = ("something with something");
+            string s2 = ("Alarm!!! Ananases!!!");
+
+            Console.WriteLine("Введите s3");
+            string s3 = Console.ReadLine();
+
+            string res1 = string.Compare(s1,s2)<0? "Строка s1 перед строкой s2" : "Строка s2 перед строкой s1";
+            Console.WriteLine(res1);
+
+            string res2 = s1.Equals(s2)==true? "Значение строк совпадает" : "Значение строк не совпадает";
+            Console.WriteLine(res2);
+
+            string res3 = string.Compare(s1, s3) < 0 ? "Строка s1 перед строкой s3" : "Строка s3 перед строкой s1";
+            Console.WriteLine(res3);
+
+            int i = s3.IndexOf("a") + 1;
+            string res5 = s3.Contains("a") ? $"символ 'а' идёт {i} по счёту" : "Здесь нету символа 'а'";
+            Console.WriteLine(res5);
+
+            Console.ReadKey();
+        }
+    }
+}
